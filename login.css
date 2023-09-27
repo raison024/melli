@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.7)), url(./assets/bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.nav{
+    height: 7vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    backdrop-filter: blur(16px) saturate(200%);
+    -webkit-backdrop-filter: blur(16px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.62);
+}
+
+.logo{
+    height: 5vh;
+    width: 5vh;
+    background-color: #000;
+    margin-left: 20px;
+    margin-right: 8px;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-button{
+    padding: 10px;
+    padding-inline: 25px;
+    border-radius: 50px;
+    font-size: 12px;
+    background-color: blueviolet;
+    color: white;
+    margin-right: 20px;
+}
+
+.login-box{
+    padding: 15px;
+    width: 22%;
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 50px;
+    backdrop-filter: blur(16px) saturate(200%);
+    -webkit-backdrop-filter: blur(16px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.62);
+}
+
+.login-title{
+    font-size: 30px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+.login-content{
+    font-size: 12px;
+    font-weight: normal;
+    align-self: flex-start;
+}
+
+.login-input{
+    padding-block: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-width: 0;
+    padding-left: 10px;
+}
+
+.login-button{
+    padding-block: 10px;
+    width: 100%;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-width: 0;
+    margin-top: 30px;   
+}
+.login-button:hover{
+    background-color: blueviolet;
+}
